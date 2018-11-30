@@ -8,22 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		D0635D322199000400874292 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0635D312199000400874292 /* AppDelegate.swift */; };
-		D0635D342199000400874292 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0635D332199000400874292 /* FirstViewController.swift */; };
-		D0635D362199000400874292 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0635D352199000400874292 /* SecondViewController.swift */; };
-		D0635D392199000400874292 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0635D372199000400874292 /* Main.storyboard */; };
 		D0635D3B2199000500874292 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0635D3A2199000500874292 /* Assets.xcassets */; };
-		D0635D3E2199000500874292 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0635D3C2199000500874292 /* LaunchScreen.storyboard */; };
+		D0635D4C2199010000874292 /* DurationUnit.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0635D452199010000874292 /* DurationUnit.swift */; };
+		D0635D4D2199010000874292 /* Stopwatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0635D462199010000874292 /* Stopwatch.swift */; };
+		D0635D4E2199010000874292 /* TimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0635D472199010000874292 /* TimeViewController.swift */; };
+		D0635D4F2199010000874292 /* DUTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0635D482199010000874292 /* DUTimer.swift */; };
+		D0635D502199010000874292 /* StopwatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0635D492199010000874292 /* StopwatchViewController.swift */; };
+		D0635D512199010000874292 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0635D4A2199010000874292 /* TimerViewController.swift */; };
+		D0635D522199010000874292 /* dtmf 4x.aiff in Resources */ = {isa = PBXBuildFile; fileRef = D0635D4B2199010000874292 /* dtmf 4x.aiff */; };
+		D0635D55219901A000874292 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0635D53219901A000874292 /* Main.storyboard */; };
+		D0635D56219901A000874292 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0635D54219901A000874292 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D0635D2E2199000400874292 /* DurationUnit5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DurationUnit5.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0635D312199000400874292 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D0635D332199000400874292 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		D0635D352199000400874292 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
-		D0635D382199000400874292 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D0635D3A2199000500874292 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D0635D3D2199000500874292 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D0635D3F2199000500874292 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0635D452199010000874292 /* DurationUnit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DurationUnit.swift; sourceTree = "<group>"; };
+		D0635D462199010000874292 /* Stopwatch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stopwatch.swift; sourceTree = "<group>"; };
+		D0635D472199010000874292 /* TimeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeViewController.swift; sourceTree = "<group>"; };
+		D0635D482199010000874292 /* DUTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DUTimer.swift; sourceTree = "<group>"; };
+		D0635D492199010000874292 /* StopwatchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StopwatchViewController.swift; sourceTree = "<group>"; };
+		D0635D4A2199010000874292 /* TimerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
+		D0635D4B2199010000874292 /* dtmf 4x.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = "dtmf 4x.aiff"; sourceTree = "<group>"; };
+		D0635D53219901A000874292 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		D0635D54219901A000874292 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,12 +66,17 @@
 		D0635D302199000400874292 /* DurationUnit5 */ = {
 			isa = PBXGroup;
 			children = (
+				D0635D54219901A000874292 /* LaunchScreen.storyboard */,
+				D0635D53219901A000874292 /* Main.storyboard */,
 				D0635D312199000400874292 /* AppDelegate.swift */,
-				D0635D332199000400874292 /* FirstViewController.swift */,
-				D0635D352199000400874292 /* SecondViewController.swift */,
-				D0635D372199000400874292 /* Main.storyboard */,
+				D0635D4B2199010000874292 /* dtmf 4x.aiff */,
+				D0635D452199010000874292 /* DurationUnit.swift */,
+				D0635D482199010000874292 /* DUTimer.swift */,
+				D0635D462199010000874292 /* Stopwatch.swift */,
+				D0635D472199010000874292 /* TimeViewController.swift */,
+				D0635D492199010000874292 /* StopwatchViewController.swift */,
+				D0635D4A2199010000874292 /* TimerViewController.swift */,
 				D0635D3A2199000500874292 /* Assets.xcassets */,
-				D0635D3C2199000500874292 /* LaunchScreen.storyboard */,
 				D0635D3F2199000500874292 /* Info.plist */,
 			);
 			path = DurationUnit5;
@@ -125,9 +140,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0635D3E2199000500874292 /* LaunchScreen.storyboard in Resources */,
+				D0635D55219901A000874292 /* Main.storyboard in Resources */,
+				D0635D56219901A000874292 /* LaunchScreen.storyboard in Resources */,
 				D0635D3B2199000500874292 /* Assets.xcassets in Resources */,
-				D0635D392199000400874292 /* Main.storyboard in Resources */,
+				D0635D522199010000874292 /* dtmf 4x.aiff in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,32 +154,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0635D362199000400874292 /* SecondViewController.swift in Sources */,
+				D0635D502199010000874292 /* StopwatchViewController.swift in Sources */,
 				D0635D322199000400874292 /* AppDelegate.swift in Sources */,
-				D0635D342199000400874292 /* FirstViewController.swift in Sources */,
+				D0635D4E2199010000874292 /* TimeViewController.swift in Sources */,
+				D0635D512199010000874292 /* TimerViewController.swift in Sources */,
+				D0635D4F2199010000874292 /* DUTimer.swift in Sources */,
+				D0635D4D2199010000874292 /* Stopwatch.swift in Sources */,
+				D0635D4C2199010000874292 /* DurationUnit.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		D0635D372199000400874292 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D0635D382199000400874292 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		D0635D3C2199000500874292 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D0635D3D2199000500874292 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		D0635D402199000500874292 /* Debug */ = {
