@@ -49,7 +49,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="PQr-Ze-W5v"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Time" image="first" id="acW-dT-cKf"/>
+                    <tabBarItem key="tabBarItem" title="Time" image="clock" id="acW-dT-cKf"/>
                     <connections>
                         <outlet property="display" destination="NJH-Ya-HeZ" id="2bz-Jq-QUh"/>
                         <outlet property="introText" destination="MVV-CL-rhq" id="pqd-sH-huS"/>
@@ -111,7 +111,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="O1u-W8-tvY"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Stopwatch" image="second" id="cPa-gy-q4n"/>
+                    <tabBarItem key="tabBarItem" title="Stopwatch" image="stopwatch" id="cPa-gy-q4n"/>
                     <connections>
                         <outlet property="resetButton" destination="1iY-0p-lGe" id="J9a-kV-UzT"/>
                         <outlet property="startStopButton" destination="oq3-mD-Ns5" id="5Eq-Ec-pgR"/>
@@ -207,7 +207,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="1Bc-te-IO1"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Timer" id="oa2-aQ-M82"/>
+                    <tabBarItem key="tabBarItem" title="Timer" image="hourglass" id="oa2-aQ-M82"/>
                     <connections>
                         <outlet property="display" destination="t5K-73-oCZ" id="blr-gL-HXr"/>
                         <outlet property="picker1" destination="p6y-5R-ULU" id="ph6-p2-QDl"/>
@@ -232,7 +232,9 @@
                         <rect key="frame" x="0.0" y="975" width="768" height="49"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="tintColor" red="0.89411764709999997" green="0.72156862749999995" blue="0.22352941179999999" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="barTintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="selectedImageTintColor" red="0.89411764709999997" green="0.72156862749999995" blue="0.22352941179999999" alpha="1" colorSpace="calibratedRGB"/>
                     </tabBar>
                     <connections>
                         <segue destination="9pv-A4-QxB" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
@@ -246,7 +248,8 @@
         </scene>
     </scenes>
     <resources>
-        <image name="first" width="30" height="30"/>
-        <image name="second" width="30" height="30"/>
+        <image name="clock" width="50" height="50"/>
+        <image name="hourglass" width="50" height="50"/>
+        <image name="stopwatch" width="50" height="50"/>
     </resources>
 </document>
